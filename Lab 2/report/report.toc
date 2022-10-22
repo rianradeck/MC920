@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Especificações do programa}{3}{section.1}%
+\contentsline {section}{\numberline {2}Algoritmos}{3}{section.2}%
+\contentsline {section}{\numberline {3}Método Global}{5}{section.3}%
+\contentsline {section}{\numberline {4}Método de Bernsen}{6}{section.4}%
+\contentsline {section}{\numberline {5}Método de Niblack}{7}{section.5}%
+\contentsline {section}{\numberline {6}Método de Sauvola e Pietaksinen}{8}{section.6}%
+\contentsline {section}{\numberline {7}Método de Phansalskar, More e Sabale}{10}{section.7}%
+\contentsline {section}{\numberline {8}Métodos de Contraste, Média e Mediana}{11}{section.8}%
+\contentsline {section}{\numberline {9}Histogramas}{13}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Fiducial}{13}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Peppers}{14}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Sonnet}{15}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Baboon}{16}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Monarch}{17}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Retina}{18}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Wedge}{19}{subsection.9.7}%

@@ -1,0 +1,64 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+
+\title{Trabalho 1 - MC920}
+\author{Rian Radeck Santos Costa - 187793}
+\date{09 de Setembro de 2022}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\section{Transformação de Intensidade}
+	\subsection{Negativo da imagem}
+		Cada pixel de valor $v$ recebeu $255 - v$.
+	\subsection{Imagem transformada}
+		Minha interpretação de ``\textit{converter o intervalo de intensidades para [100, 200]}", foi de escalar os valores linearmente para esse intervalo. Para fazer isso fiz uma distribuição linear de 256 valores entre o começo e o fim do intervalo e converti cada pixel de acordo com essa distribuição arrendondando para o inteiro mais próximo.
+	\subsection{Linhas pares invertidas}
+		Sem muito segredo, fiz um slicing do começo ao fim com passo 2 para pegar somente as linhas pares e disse que cada uma receberia ela mesma porém invertida.
+	\subsection{Reflexão de linhas}
+		Aqui fiz o slicing da primeira metade das linhas e coloquei no slicing da segunda metade das linhas porém de trás para frente ([::-1]) para que elas ficassem invertidas, causando o efeito de espelhamento.
+	\subsection{Espelhamento vertical}
+		Bem simples, foi feito a inversão das linhas (img = img[::-1]).
+
+\section{Ajuste de Brilho}
+	Cada pixel foi transformado em um número entre 0 e 1 linearmente (novamente foi usado o linspace), após isso eles foram elevados $\frac{1}{\lambda}$ e depois multiplicados por 255.
+
+\section{Planos de Bits}
+	Para um determinado plano $b$ de bits, precisamos ver se esse bit está ligado ou não para cada pixel, caso esteja seu valor será 1 no plano de bits ou 0 caso contrário. Para atingirmos esse objetivo é necessário somente ver se a expressão $v\&2^b \neq 0$ é verdadeira, se for o bit está ligado para um valor de pixel $v$.
+
+\section{Mosaico}
+	Aqui foi feito o slicing das partes apenas multiplicando o $(i, j)$ do grid (por exemplo a posição 15 do grid é interpretada como $(4, 3)$) pelo tamanho de cada parte do grid, e elas foram colocadas em um vetor. Assim, se quisermos trocar uma parte basta colocarmos ela em uma nova posição do vetor e fazer o processo no sentido contrário.
+
+\section{Combinação de Imagens}
+	Bem simples, apenas feito a multiplicação das matrizes por cada fator e depois feito a soma entre as duas.
+
+\section{Filtragem de Imagens}
+	Aqui imaginei cada filtro como uma janela deslizante que começaria no ponto superior esquerdo da matriz e iteraria pixel a pixel (onde ela encaixasse obviamente) fazendo a convolução para aquele pixel.
+
+	\subsection{H1}
+		Esse filtro dezpreza as áreas ao seu redor, portanto acentuando seu contraste e fazendo contornos.
+	\subsection{H2}
+		Esse filtro é apenas um desfoque.
+	\subsection{H3}
+		Esse filtro dá ênfase nas partes verticais da imagem.
+	\subsection{H4}
+		Esse filtro dá ênfase nas partes horizontais da imagem.
+	\subsection{H5}
+		Outro filtro de contorno porém menos agressivo.
+	\subsection{H6}
+		Outro filtro de desfoque, bem genérico.
+	\subsection{H7}
+		Esse filtro dá ênfase nas partes diagonais da imagem (diagonal secundária).
+	\subsection{H8}
+		Esse filtro dá ênfase nas partes diagonais da imagem (diagonal principal).
+	\subsection{H9}
+		Filtro que aplica um efeito de imagem borrada na diagonal principal.
+	\subsection{H10}
+		Me aparenta ser um filtro de nitidez.
+	\subsection{H11}
+		Esse filtro dá ênfase nos cantos inferiores direito sobre a geometria da imagem.
+
+
+\end{document}
