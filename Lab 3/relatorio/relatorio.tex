@@ -1,0 +1,37 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{float}
+
+\title{Trabalho 3 - MC920}
+\author{Rian Radeck Santos Costa - 187793}
+\date{23 de Outubro de 2022}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+Encorajo fortemente a execução do código e análise detalhada dele. Todas as variáveis que são modificáveis estão comentadas no código para fácil localização e manipulação dos algoritmos.
+
+\section{Halftoning}
+	A implementação da técnica de halftoning foi feita utilizando caminhos alternados e multiplicação de grid, afzendo a inversão quando a iteração era em uma linha ímpar. Foram utilizadas técnicas de vetorização para melhor otimização do algoritmo.
+
+	A função no código recebe a imagem e o grid de difusão de erro. Ela funciona para imagens monocromáticas e coloridas.
+
+	O resultado de cada uma das técnicas fornecidas estão na pasta ``processado'' deste projeto.
+
+\section{FFT e filtragem no domínio de frequência}
+	Para essa seção foram utilizadas as funções da biblioteca np.fft para se obter o espectro de fourrier de imagens e converte-los novamente para imagens.
+
+	Para atingir esse objetivo eu implementei 3 funções:
+	\begin{itemize}
+		\item{get\_image: Recebe um espectro no formato complexo e retorna uma imagem com a magnitude daqueles números complexos de acordo com a seguinte expressão $\ln{(1 + \lvert f(x, y) \rvert)}$.}
+		\item{get\_centered\_spectrum: Recebe uma imagem e retorna o espectro de Fourier dela em formato complexo e centralizado.}
+		\item{get\_processed\_from\_centralized: Recebe um espetro centralizado em formato complexo e retorna uma imagem aplicando a inversa de fourier.}
+	\end{itemize}
+
+	Depois de implementada essas funções, só precisamos processar as imagens, que estão na pasta ``processado'' deste projeto.
+
+\end{document}
