@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Transformação de Cores}{3}{section.1}%
+\contentsline {section}{\numberline {2}Contornos dos Objetos}{3}{section.2}%
+\contentsline {section}{\numberline {3}Extração de Propriedades dos Objetos}{4}{section.3}%
+\contentsline {section}{\numberline {4}Histograma de Área dos Objetos}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Exemplo 1}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Exemplo 2}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Exemplo 3}{7}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Bibliografia}{7}{section.5}%

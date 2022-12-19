@@ -1,0 +1,170 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.25)  2 DEC 2022 23:51
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"D:/Unicamp/MC920/Lab 5/report/report.tex"
+(D:/Unicamp/MC920/Lab 5/report/report.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (C:\Users\rianr\AppData\Local\Programs\MiKTeX
+\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box50
+) (report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count194
+\scratchdimen=\dimen141
+\scratchbox=\box51
+\nofMPsegments=\count195
+\nofMParguments=\count196
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count197
+\MPscratchDim=\dimen142
+\MPnumerator=\count198
+\makeMPintoPDFobject=\count199
+\everyMPtoPDFconversion=\toks20
+)
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\rianr\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+[1
+
+{C:/Users/rianr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (1.59732pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/12 Contornar ob-je-tos rel-e-vantes (de ^^Sarea grande su-fi-cie
+nte) com ret^angulos. 
+ []
+
+
+Overfull \hbox (1.3015pt too wide) in paragraph at lines 34--35
+[]\OT1/cmr/m/n/12 Para cal-cu-lar a diferen^^Xca uti-lizei a fun^^Xc~ao ``np.ab
+s(frame - last)'' do numpy.
+ []
+
+[2]
+Overfull \hbox (47.61351pt too wide) in paragraph at lines 38--39
+[]\OT1/cmr/m/n/12 Ap^^Sos de-sco-brir v^^Sarios ob-j-tos ape-nas pas-sei eles p
+ara a fun^^Xc~ao ``cv.findContours(img,
+ []
+
+
+Overfull \hbox (2.28065pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/12 con-trando seu ret^angulo de lim-ites com a fun^^Xc~ao ``cv.bou
+ndingRect(contour)''.
+ []
+
+[3]
+<images//diff.png, id=14, 304.13625pt x 231.86626pt>
+File: images//diff.png Graphic file (type png)
+<use images//diff.png>
+Package pdftex.def Info: images//diff.png  used on input line 44.
+(pdftex.def)             Requested size: 155.99762pt x 118.9295pt.
+<images//objects.png, id=16, 152.82094pt x 219.82124pt>
+File: images//objects.png Graphic file (type png)
+<use images//objects.png>
+Package pdftex.def Info: images//objects.png  used on input line 50.
+(pdftex.def)             Requested size: 155.99762pt x 224.39917pt.
+<images//rectangles.png, id=17, 426.09187pt x 302.63063pt>
+File: images//rectangles.png Graphic file (type png)
+<use images//rectangles.png>
+Package pdftex.def Info: images//rectangles.png  used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 277.01051pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./images//diff.png> <./images//objects.png>] [5 <./images//rectangles.png>]
+(report.aux) ) 
+Here is how much of TeX's memory you used:
+ 1355 strings out of 478582
+ 23480 string characters out of 2844344
+ 316407 words of memory out of 3000000
+ 19571 multiletter control sequences out of 15000+600000
+ 471682 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,6n,62p,840b,229s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/rianr/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><C:/Users/rianr/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Users/rianr/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on report.pdf (5 pages, 371313 bytes).
+PDF statistics:
+ 40 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
